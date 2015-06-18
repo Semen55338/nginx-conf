@@ -1,0 +1,4 @@
+/sites-available/*
+!/sites-available/default
+!/sites-available/default-ssl
+!/sites-available/phpmyadmin
