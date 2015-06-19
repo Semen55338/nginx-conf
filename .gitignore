@@ -1,4 +1,4 @@
-/sites-available/*
-!/sites-available/default
-!/sites-available/default-ssl
-!/sites-available/phpmyadmin
+sites-available/*
+!sites-available/default
+!sites-available/default-ssl
+!sites-available/phpmyadmin
