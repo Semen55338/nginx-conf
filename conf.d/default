@@ -1,0 +1,14 @@
+server {
+    listen        80;
+    set $vhost    localhost;
+    server_name   $vhost;
+    root          /var/www/$vhost;
+
+    access_log  ../../../var/log/nginx/$vhost.access.log  main;
+
+    include   conf.d/php-fpm;
+
+
+    error_page  404     /404.html;
+    error_page  403     /403.html;
+}
